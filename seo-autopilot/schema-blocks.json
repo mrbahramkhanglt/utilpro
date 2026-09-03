@@ -1,0 +1,2068 @@
+[
+  {
+    "page_url": "https://utilpro.netlify.app",
+    "schema_type": "Organization",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "UtilPro",
+      "url": "https://utilpro.netlify.app/"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"UtilPro\",\n  \"url\": \"https://utilpro.netlify.app/\"\n}\n</script>",
+    "reason": "Organization schema helps establish entity identity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Your All-in-One Online Utility Hub",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"Your All-in-One Online Utility Hub\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app",
+    "schema_type": "FAQPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What Are You Looking For?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'What Are You Looking For?' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Need a Quick Calculation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Need a Quick Calculation?' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "WhatsApp OTP Not Received? 10 Proven Fixes (2026)",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'WhatsApp OTP Not Received? 10 Proven Fixes (2026)' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Android Phone Running Slow? Speed It Up in 10 Steps",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Android Phone Running Slow? Speed It Up in 10 Steps' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobile Data Not Working? Fix It in Minutes",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Mobile Data Not Working? Fix It in Minutes' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to Check BISP Payment Online — SMS & App Method",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'How to Check BISP Payment Online — SMS & App Method' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to Check Electricity Bill Online in Pakistan",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'How to Check Electricity Bill Online in Pakistan' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Laptop Running Slow on Windows 11? 12 Easy Fixes",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Laptop Running Slow on Windows 11? 12 Easy Fixes' on this page for details."
+          }
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What Are You Looking For?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'What Are You Looking For?' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Need a Quick Calculation?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Need a Quick Calculation?' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"WhatsApp OTP Not Received? 10 Proven Fixes (2026)\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'WhatsApp OTP Not Received? 10 Proven Fixes (2026)' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Android Phone Running Slow? Speed It Up in 10 Steps\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Android Phone Running Slow? Speed It Up in 10 Steps' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Mobile Data Not Working? Fix It in Minutes\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Mobile Data Not Working? Fix It in Minutes' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How to Check BISP Payment Online — SMS & App Method\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'How to Check BISP Payment Online — SMS & App Method' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How to Check Electricity Bill Online in Pakistan\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'How to Check Electricity Bill Online in Pakistan' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Laptop Running Slow on Windows 11? 12 Easy Fixes\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Laptop Running Slow on Windows 11? 12 Easy Fixes' on this page for details.\"\n      }\n    }\n  ]\n}\n</script>",
+    "reason": "Question-style headings detected – FAQPage can enable FAQ rich results.",
+    "note": "Replace placeholder answers with real content before publishing."
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/",
+    "schema_type": "Organization",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "UtilPro",
+      "url": "https://utilpro.netlify.app/"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"UtilPro\",\n  \"url\": \"https://utilpro.netlify.app/\"\n}\n</script>",
+    "reason": "Organization schema helps establish entity identity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Your All-in-One Online Utility Hub",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"Your All-in-One Online Utility Hub\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/",
+    "schema_type": "FAQPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What Are You Looking For?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'What Are You Looking For?' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Need a Quick Calculation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Need a Quick Calculation?' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "WhatsApp OTP Not Received? 10 Proven Fixes (2026)",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'WhatsApp OTP Not Received? 10 Proven Fixes (2026)' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Android Phone Running Slow? Speed It Up in 10 Steps",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Android Phone Running Slow? Speed It Up in 10 Steps' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobile Data Not Working? Fix It in Minutes",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Mobile Data Not Working? Fix It in Minutes' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to Check BISP Payment Online — SMS & App Method",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'How to Check BISP Payment Online — SMS & App Method' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to Check Electricity Bill Online in Pakistan",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'How to Check Electricity Bill Online in Pakistan' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Laptop Running Slow on Windows 11? 12 Easy Fixes",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Laptop Running Slow on Windows 11? 12 Easy Fixes' on this page for details."
+          }
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What Are You Looking For?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'What Are You Looking For?' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Need a Quick Calculation?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Need a Quick Calculation?' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"WhatsApp OTP Not Received? 10 Proven Fixes (2026)\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'WhatsApp OTP Not Received? 10 Proven Fixes (2026)' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Android Phone Running Slow? Speed It Up in 10 Steps\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Android Phone Running Slow? Speed It Up in 10 Steps' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Mobile Data Not Working? Fix It in Minutes\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Mobile Data Not Working? Fix It in Minutes' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How to Check BISP Payment Online — SMS & App Method\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'How to Check BISP Payment Online — SMS & App Method' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How to Check Electricity Bill Online in Pakistan\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'How to Check Electricity Bill Online in Pakistan' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Laptop Running Slow on Windows 11? 12 Easy Fixes\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Laptop Running Slow on Windows 11? 12 Easy Fixes' on this page for details.\"\n      }\n    }\n  ]\n}\n</script>",
+    "reason": "Question-style headings detected – FAQPage can enable FAQ rich results.",
+    "note": "Replace placeholder answers with real content before publishing."
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Free Online Tools — Calculators & Converters | UtilPro",
+      "description": "10 free online tools: Age Calculator, Loan EMI Calculator, BMI Calculator, Password Generator, Currency Converter, Unit Converter and more. No signup required.",
+      "url": "https://utilpro.netlify.app/tools",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Free Online Tools — Calculators & Converters | UtilPro\",\n  \"description\": \"10 free online tools: Age Calculator, Loan EMI Calculator, BMI Calculator, Password Generator, Currency Converter, Unit Converter and more. No signup required.\",\n  \"url\": \"https://utilpro.netlify.app/tools\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "🔧 Free Online Tools",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/tools"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"🔧 Free Online Tools\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/tools\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Expert Guides & How-To Articles — UtilPro Blog",
+      "description": "20+ expert guides on mobile fixes, Pakistan government services, education resources, and tech solutions. Step-by-step, verified, and updated for 2026.",
+      "url": "https://utilpro.netlify.app/blog",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Expert Guides & How-To Articles — UtilPro Blog\",\n  \"description\": \"20+ expert guides on mobile fixes, Pakistan government services, education resources, and tech solutions. Step-by-step, verified, and updated for 2026.\",\n  \"url\": \"https://utilpro.netlify.app/blog\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog",
+    "schema_type": "FAQPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "WhatsApp OTP Not Received? 10 Proven Fixes (2026)",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'WhatsApp OTP Not Received? 10 Proven Fixes (2026)' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Android Phone Running Slow? Speed It Up in 10 Steps",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Android Phone Running Slow? Speed It Up in 10 Steps' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobile Data Not Working? 8 Fixes for Android & iPhone",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Mobile Data Not Working? 8 Fixes for Android & iPhone' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Instagram Login Problem? 7 Fixes That Work",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Instagram Login Problem? 7 Fixes That Work' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Facebook Account Locked? Step-by-Step Recovery Guide",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Facebook Account Locked? Step-by-Step Recovery Guide' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to Check BISP Payment Status Online (2026)",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'How to Check BISP Payment Status Online (2026)' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to Check Electricity Bill Online — All DISCOs",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'How to Check Electricity Bill Online — All DISCOs' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Laptop Running Slow on Windows 11? 12 Easy Fixes",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Laptop Running Slow on Windows 11? 12 Easy Fixes' on this page for details."
+          }
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"WhatsApp OTP Not Received? 10 Proven Fixes (2026)\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'WhatsApp OTP Not Received? 10 Proven Fixes (2026)' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Android Phone Running Slow? Speed It Up in 10 Steps\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Android Phone Running Slow? Speed It Up in 10 Steps' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Mobile Data Not Working? 8 Fixes for Android & iPhone\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Mobile Data Not Working? 8 Fixes for Android & iPhone' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Instagram Login Problem? 7 Fixes That Work\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Instagram Login Problem? 7 Fixes That Work' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Facebook Account Locked? Step-by-Step Recovery Guide\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Facebook Account Locked? Step-by-Step Recovery Guide' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How to Check BISP Payment Status Online (2026)\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'How to Check BISP Payment Status Online (2026)' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How to Check Electricity Bill Online — All DISCOs\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'How to Check Electricity Bill Online — All DISCOs' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Laptop Running Slow on Windows 11? 12 Easy Fixes\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Laptop Running Slow on Windows 11? 12 Easy Fixes' on this page for details.\"\n      }\n    }\n  ]\n}\n</script>",
+    "reason": "Question-style headings detected – FAQPage can enable FAQ rich results.",
+    "note": "Replace placeholder answers with real content before publishing."
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/mobile-fix",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "📱 Mobile Fix Guides — UtilPro",
+      "description": "Step-by-step solutions for WhatsApp, Instagram, Facebook, and mobile network problems.",
+      "url": "https://utilpro.netlify.app/blog/mobile-fix",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"📱 Mobile Fix Guides — UtilPro\",\n  \"description\": \"Step-by-step solutions for WhatsApp, Instagram, Facebook, and mobile network problems.\",\n  \"url\": \"https://utilpro.netlify.app/blog/mobile-fix\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/mobile-fix",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mobile Fix",
+          "item": "https://utilpro.netlify.app/blog/mobile-fix"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Mobile Fix\",\n      \"item\": \"https://utilpro.netlify.app/blog/mobile-fix\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/govt-services",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "🏛️ Govt Services Guides — UtilPro",
+      "description": "Pakistan government service guides — CNIC, BISP, Passport, Electricity Bill, Gas Bill.",
+      "url": "https://utilpro.netlify.app/blog/govt-services",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"🏛️ Govt Services Guides — UtilPro\",\n  \"description\": \"Pakistan government service guides — CNIC, BISP, Passport, Electricity Bill, Gas Bill.\",\n  \"url\": \"https://utilpro.netlify.app/blog/govt-services\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/govt-services",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Govt Services",
+          "item": "https://utilpro.netlify.app/blog/govt-services"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Govt Services\",\n      \"item\": \"https://utilpro.netlify.app/blog/govt-services\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/education",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "🎓 Education Guides — UtilPro",
+      "description": "Resources for Pakistani students — BISE results, past papers, scholarships, and admissions.",
+      "url": "https://utilpro.netlify.app/blog/education",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"🎓 Education Guides — UtilPro\",\n  \"description\": \"Resources for Pakistani students — BISE results, past papers, scholarships, and admissions.\",\n  \"url\": \"https://utilpro.netlify.app/blog/education\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/education",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Education",
+          "item": "https://utilpro.netlify.app/blog/education"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Education\",\n      \"item\": \"https://utilpro.netlify.app/blog/education\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "💻 Tech Fix Guides — UtilPro",
+      "description": "Fix laptop, computer, and app problems — Windows 11, WiFi, phone overheating and more.",
+      "url": "https://utilpro.netlify.app/blog/tech-fix",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"💻 Tech Fix Guides — UtilPro\",\n  \"description\": \"Fix laptop, computer, and app problems — Windows 11, WiFi, phone overheating and more.\",\n  \"url\": \"https://utilpro.netlify.app/blog/tech-fix\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tech Fix",
+          "item": "https://utilpro.netlify.app/blog/tech-fix"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Tech Fix\",\n      \"item\": \"https://utilpro.netlify.app/blog/tech-fix\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/age-calculator",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Age Calculator — Calculate Your Exact Age | UtilPro",
+      "description": "Calculate your exact age in years, months, days, hours, and minutes from your date of birth. Free online age calculator with instant results.",
+      "url": "https://utilpro.netlify.app/tools/age-calculator",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Age Calculator — Calculate Your Exact Age | UtilPro\",\n  \"description\": \"Calculate your exact age in years, months, days, hours, and minutes from your date of birth. Free online age calculator with instant results.\",\n  \"url\": \"https://utilpro.netlify.app/tools/age-calculator\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/age-calculator",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "🎂 Age Calculator",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/tools/age-calculator"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"🎂 Age Calculator\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/tools/age-calculator\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/age-calculator",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Age Calculator",
+          "item": "https://utilpro.netlify.app/tools/age-calculator"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Age Calculator\",\n      \"item\": \"https://utilpro.netlify.app/tools/age-calculator\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/emi-calculator",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Loan EMI Calculator — Free Monthly EMI Calculator | UtilPro",
+      "description": "Calculate your loan EMI (Equated Monthly Installment) for home loan, car loan, or personal loan. Get instant results with full amortization breakdown.",
+      "url": "https://utilpro.netlify.app/tools/emi-calculator",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Loan EMI Calculator — Free Monthly EMI Calculator | UtilPro\",\n  \"description\": \"Calculate your loan EMI (Equated Monthly Installment) for home loan, car loan, or personal loan. Get instant results with full amortization breakdown.\",\n  \"url\": \"https://utilpro.netlify.app/tools/emi-calculator\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/emi-calculator",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Emi Calculator",
+          "item": "https://utilpro.netlify.app/tools/emi-calculator"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Emi Calculator\",\n      \"item\": \"https://utilpro.netlify.app/tools/emi-calculator\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/bmi-calculator",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "BMI Calculator — Check Your Body Mass Index Free | UtilPro",
+      "description": "Calculate your BMI (Body Mass Index) instantly. Enter your weight and height to get your BMI score and health category — underweight, normal, overweight, or obese.",
+      "url": "https://utilpro.netlify.app/tools/bmi-calculator",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"BMI Calculator — Check Your Body Mass Index Free | UtilPro\",\n  \"description\": \"Calculate your BMI (Body Mass Index) instantly. Enter your weight and height to get your BMI score and health category — underweight, normal, overweight, or obese.\",\n  \"url\": \"https://utilpro.netlify.app/tools/bmi-calculator\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/bmi-calculator",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "⚖️ BMI Calculator",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/tools/bmi-calculator"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"⚖️ BMI Calculator\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/tools/bmi-calculator\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/bmi-calculator",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bmi Calculator",
+          "item": "https://utilpro.netlify.app/tools/bmi-calculator"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Bmi Calculator\",\n      \"item\": \"https://utilpro.netlify.app/tools/bmi-calculator\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/percentage-calculator",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Percentage Calculator — Free Online % Calculator | UtilPro",
+      "description": "Calculate percentages instantly. Find X% of Y, percentage increase/decrease, or what percentage X is of Y. Free online tool.",
+      "url": "https://utilpro.netlify.app/tools/percentage-calculator",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Percentage Calculator — Free Online % Calculator | UtilPro\",\n  \"description\": \"Calculate percentages instantly. Find X% of Y, percentage increase/decrease, or what percentage X is of Y. Free online tool.\",\n  \"url\": \"https://utilpro.netlify.app/tools/percentage-calculator\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/percentage-calculator",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "% Percentage Calculator",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/tools/percentage-calculator"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"% Percentage Calculator\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/tools/percentage-calculator\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/percentage-calculator",
+    "schema_type": "FAQPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is X% of Y?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'What is X% of Y?' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "X is What % of Y?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'X is What % of Y?' on this page for details."
+          }
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What is X% of Y?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'What is X% of Y?' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"X is What % of Y?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'X is What % of Y?' on this page for details.\"\n      }\n    }\n  ]\n}\n</script>",
+    "reason": "Question-style headings detected – FAQPage can enable FAQ rich results.",
+    "note": "Replace placeholder answers with real content before publishing."
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/percentage-calculator",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Percentage Calculator",
+          "item": "https://utilpro.netlify.app/tools/percentage-calculator"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Percentage Calculator\",\n      \"item\": \"https://utilpro.netlify.app/tools/percentage-calculator\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/timezone-converter",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Time Zone Converter — World Clock & Time Converter | UtilPro",
+      "description": "Convert time between Pakistan (PKT), USA, UK, UAE, Saudi Arabia and 20+ world time zones. Free online time zone converter with live clock.",
+      "url": "https://utilpro.netlify.app/tools/timezone-converter",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Time Zone Converter — World Clock & Time Converter | UtilPro\",\n  \"description\": \"Convert time between Pakistan (PKT), USA, UK, UAE, Saudi Arabia and 20+ world time zones. Free online time zone converter with live clock.\",\n  \"url\": \"https://utilpro.netlify.app/tools/timezone-converter\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/timezone-converter",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "🌍 Time Zone Converter",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/tools/timezone-converter"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"🌍 Time Zone Converter\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/tools/timezone-converter\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/timezone-converter",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Timezone Converter",
+          "item": "https://utilpro.netlify.app/tools/timezone-converter"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Timezone Converter\",\n      \"item\": \"https://utilpro.netlify.app/tools/timezone-converter\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/password-generator",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Strong Password Generator — Free & Secure | UtilPro",
+      "description": "Generate strong, random passwords instantly. Customize length, include uppercase, numbers, and symbols. Your passwords are never stored or sent anywhere.",
+      "url": "https://utilpro.netlify.app/tools/password-generator",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Strong Password Generator — Free & Secure | UtilPro\",\n  \"description\": \"Generate strong, random passwords instantly. Customize length, include uppercase, numbers, and symbols. Your passwords are never stored or sent anywhere.\",\n  \"url\": \"https://utilpro.netlify.app/tools/password-generator\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/password-generator",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "🔑 Password Generator",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/tools/password-generator"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"🔑 Password Generator\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/tools/password-generator\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/password-generator",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Password Generator",
+          "item": "https://utilpro.netlify.app/tools/password-generator"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Password Generator\",\n      \"item\": \"https://utilpro.netlify.app/tools/password-generator\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/unit-converter",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Unit Converter — kg, meters, liters, °C & More | UtilPro",
+      "description": "Free online unit converter. Convert weight (kg/lbs), length (km/miles/feet), temperature (Celsius/Fahrenheit), volume (liters/gallons) and more instantly.",
+      "url": "https://utilpro.netlify.app/tools/unit-converter",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Unit Converter — kg, meters, liters, °C & More | UtilPro\",\n  \"description\": \"Free online unit converter. Convert weight (kg/lbs), length (km/miles/feet), temperature (Celsius/Fahrenheit), volume (liters/gallons) and more instantly.\",\n  \"url\": \"https://utilpro.netlify.app/tools/unit-converter\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/unit-converter",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "📐 Unit Converter",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/tools/unit-converter"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"📐 Unit Converter\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/tools/unit-converter\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/unit-converter",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Unit Converter",
+          "item": "https://utilpro.netlify.app/tools/unit-converter"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Unit Converter\",\n      \"item\": \"https://utilpro.netlify.app/tools/unit-converter\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/date-difference",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Date Difference Calculator — Days Between Two Dates | UtilPro",
+      "description": "Calculate the exact number of days, weeks, months, and years between any two dates. Free online date difference calculator — perfect for deadlines and anniversaries.",
+      "url": "https://utilpro.netlify.app/tools/date-difference",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Date Difference Calculator — Days Between Two Dates | UtilPro\",\n  \"description\": \"Calculate the exact number of days, weeks, months, and years between any two dates. Free online date difference calculator — perfect for deadlines and anniversaries.\",\n  \"url\": \"https://utilpro.netlify.app/tools/date-difference\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/date-difference",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "📅 Date Difference Calculator",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/tools/date-difference"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"📅 Date Difference Calculator\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/tools/date-difference\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/date-difference",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Date Difference",
+          "item": "https://utilpro.netlify.app/tools/date-difference"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Date Difference\",\n      \"item\": \"https://utilpro.netlify.app/tools/date-difference\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/currency-converter",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Currency Converter — PKR, USD, EUR, GBP, AED | UtilPro",
+      "description": "Convert PKR to USD, EUR, GBP, AED, SAR and 15+ currencies. Free online currency converter with reference exchange rates for Pakistan.",
+      "url": "https://utilpro.netlify.app/tools/currency-converter",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Currency Converter — PKR, USD, EUR, GBP, AED | UtilPro\",\n  \"description\": \"Convert PKR to USD, EUR, GBP, AED, SAR and 15+ currencies. Free online currency converter with reference exchange rates for Pakistan.\",\n  \"url\": \"https://utilpro.netlify.app/tools/currency-converter\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/currency-converter",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "💱 Currency Converter",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/tools/currency-converter"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"💱 Currency Converter\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/tools/currency-converter\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/currency-converter",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Currency Converter",
+          "item": "https://utilpro.netlify.app/tools/currency-converter"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Currency Converter\",\n      \"item\": \"https://utilpro.netlify.app/tools/currency-converter\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/pdf-tools",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Free PDF Tools Hub — 20+ PDF Tools Online | UtilPro",
+      "description": "20+ free PDF tools: Merge PDF, Split PDF, Compress PDF, PDF to Word, PDF to Excel, PDF to JPG, PDF to PNG, Rotate, Watermark, Protect, Unlock PDF and more.",
+      "url": "https://utilpro.netlify.app/tools/pdf-tools",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Free PDF Tools Hub — 20+ PDF Tools Online | UtilPro\",\n  \"description\": \"20+ free PDF tools: Merge PDF, Split PDF, Compress PDF, PDF to Word, PDF to Excel, PDF to JPG, PDF to PNG, Rotate, Watermark, Protect, Unlock PDF and more.\",\n  \"url\": \"https://utilpro.netlify.app/tools/pdf-tools\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/pdf-tools",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Free PDF Tools Hub",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/tools/pdf-tools"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"Free PDF Tools Hub\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/tools/pdf-tools\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/tools/pdf-tools",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://utilpro.netlify.app/tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pdf Tools",
+          "item": "https://utilpro.netlify.app/tools/pdf-tools"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Pdf Tools\",\n      \"item\": \"https://utilpro.netlify.app/tools/pdf-tools\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/mobile-fix/whatsapp-otp-not-received",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "WhatsApp OTP Not Received? 10 Proven Fixes (2026) | UtilPro",
+      "description": "WhatsApp verification code not received? Fix it in minutes with these 10 proven solutions for Android and iPhone. Works for new installs and reinstalls.",
+      "url": "https://utilpro.netlify.app/blog/mobile-fix/whatsapp-otp-not-received",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WhatsApp OTP Not Received? 10 Proven Fixes (2026) | UtilPro\",\n  \"description\": \"WhatsApp verification code not received? Fix it in minutes with these 10 proven solutions for Android and iPhone. Works for new installs and reinstalls.\",\n  \"url\": \"https://utilpro.netlify.app/blog/mobile-fix/whatsapp-otp-not-received\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/mobile-fix/whatsapp-otp-not-received",
+    "schema_type": "FAQPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why WhatsApp OTP Doesn't Come",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Why WhatsApp OTP Doesn't Come' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Android Phone Running Slow? Speed It Up",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Android Phone Running Slow? Speed It Up' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobile Data Not Working? Fix It Now",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Mobile Data Not Working? Fix It Now' on this page for details."
+          }
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Why WhatsApp OTP Doesn't Come\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Why WhatsApp OTP Doesn't Come' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Android Phone Running Slow? Speed It Up\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Android Phone Running Slow? Speed It Up' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Mobile Data Not Working? Fix It Now\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Mobile Data Not Working? Fix It Now' on this page for details.\"\n      }\n    }\n  ]\n}\n</script>",
+    "reason": "Question-style headings detected – FAQPage can enable FAQ rich results.",
+    "note": "Replace placeholder answers with real content before publishing."
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/mobile-fix/whatsapp-otp-not-received",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mobile Fix",
+          "item": "https://utilpro.netlify.app/blog/mobile-fix"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Whatsapp Otp Not Received",
+          "item": "https://utilpro.netlify.app/blog/mobile-fix/whatsapp-otp-not-received"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Mobile Fix\",\n      \"item\": \"https://utilpro.netlify.app/blog/mobile-fix\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"name\": \"Whatsapp Otp Not Received\",\n      \"item\": \"https://utilpro.netlify.app/blog/mobile-fix/whatsapp-otp-not-received\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/mobile-fix/android-phone-slow-fix",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Android Phone Running Slow? 10 Easy Fixes (2026) | UtilPro",
+      "description": "Is your Android phone lagging, freezing, or running slow? Fix it in 10 simple steps without factory reset. Works on Samsung, Xiaomi, Oppo, Vivo and all Android phones.",
+      "url": "https://utilpro.netlify.app/blog/mobile-fix/android-phone-slow-fix",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Android Phone Running Slow? 10 Easy Fixes (2026) | UtilPro\",\n  \"description\": \"Is your Android phone lagging, freezing, or running slow? Fix it in 10 simple steps without factory reset. Works on Samsung, Xiaomi, Oppo, Vivo and all Android phones.\",\n  \"url\": \"https://utilpro.netlify.app/blog/mobile-fix/android-phone-slow-fix\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/mobile-fix/android-phone-slow-fix",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mobile Fix",
+          "item": "https://utilpro.netlify.app/blog/mobile-fix"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Android Phone Slow Fix",
+          "item": "https://utilpro.netlify.app/blog/mobile-fix/android-phone-slow-fix"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Mobile Fix\",\n      \"item\": \"https://utilpro.netlify.app/blog/mobile-fix\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"name\": \"Android Phone Slow Fix\",\n      \"item\": \"https://utilpro.netlify.app/blog/mobile-fix/android-phone-slow-fix\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/mobile-fix/mobile-data-not-working",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Mobile Data Not Working? 8 Fixes for Android & iPhone (2026) | UtilPro",
+      "description": "Mobile data not working on your phone? Fix 4G/5G data not working on Android and iPhone with these 8 step-by-step solutions. Works for all networks.",
+      "url": "https://utilpro.netlify.app/blog/mobile-fix/mobile-data-not-working",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Mobile Data Not Working? 8 Fixes for Android & iPhone (2026) | UtilPro\",\n  \"description\": \"Mobile data not working on your phone? Fix 4G/5G data not working on Android and iPhone with these 8 step-by-step solutions. Works for all networks.\",\n  \"url\": \"https://utilpro.netlify.app/blog/mobile-fix/mobile-data-not-working\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/mobile-fix/mobile-data-not-working",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mobile Fix",
+          "item": "https://utilpro.netlify.app/blog/mobile-fix"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Mobile Data Not Working",
+          "item": "https://utilpro.netlify.app/blog/mobile-fix/mobile-data-not-working"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Mobile Fix\",\n      \"item\": \"https://utilpro.netlify.app/blog/mobile-fix\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"name\": \"Mobile Data Not Working\",\n      \"item\": \"https://utilpro.netlify.app/blog/mobile-fix/mobile-data-not-working\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/govt-services/cnic-verification-nadra",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "CNIC Verification Online via NADRA — Complete Guide 2026 | UtilPro",
+      "description": "How to verify your CNIC number online through NADRA in Pakistan. 3 methods: SMS to 7000, NADRA website, and NADRA app. Check CNIC validity instantly.",
+      "url": "https://utilpro.netlify.app/blog/govt-services/cnic-verification-nadra",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"CNIC Verification Online via NADRA — Complete Guide 2026 | UtilPro\",\n  \"description\": \"How to verify your CNIC number online through NADRA in Pakistan. 3 methods: SMS to 7000, NADRA website, and NADRA app. Check CNIC validity instantly.\",\n  \"url\": \"https://utilpro.netlify.app/blog/govt-services/cnic-verification-nadra\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/govt-services/cnic-verification-nadra",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Govt Services",
+          "item": "https://utilpro.netlify.app/blog/govt-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Cnic Verification Nadra",
+          "item": "https://utilpro.netlify.app/blog/govt-services/cnic-verification-nadra"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Govt Services\",\n      \"item\": \"https://utilpro.netlify.app/blog/govt-services\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"name\": \"Cnic Verification Nadra\",\n      \"item\": \"https://utilpro.netlify.app/blog/govt-services/cnic-verification-nadra\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/govt-services/bisp-payment-check",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "How to Check BISP Payment Online — SMS & App Method 2026 | UtilPro",
+      "description": "Check your Benazir Income Support Programme (BISP) payment status via SMS, app, and website. Find out if your BISP installment has been released in 2026.",
+      "url": "https://utilpro.netlify.app/blog/govt-services/bisp-payment-check",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"How to Check BISP Payment Online — SMS & App Method 2026 | UtilPro\",\n  \"description\": \"Check your Benazir Income Support Programme (BISP) payment status via SMS, app, and website. Find out if your BISP installment has been released in 2026.\",\n  \"url\": \"https://utilpro.netlify.app/blog/govt-services/bisp-payment-check\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/govt-services/bisp-payment-check",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Govt Services",
+          "item": "https://utilpro.netlify.app/blog/govt-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Bisp Payment Check",
+          "item": "https://utilpro.netlify.app/blog/govt-services/bisp-payment-check"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Govt Services\",\n      \"item\": \"https://utilpro.netlify.app/blog/govt-services\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"name\": \"Bisp Payment Check\",\n      \"item\": \"https://utilpro.netlify.app/blog/govt-services/bisp-payment-check\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/govt-services/electricity-bill-online",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "How to Check Electricity Bill Online in Pakistan 2026 | UtilPro",
+      "description": "Check your electricity bill online in Pakistan — LESCO, IESCO, FESCO, MEPCO, HESCO, PESCO, QESCO, GEPCO, SEPCO. Enter reference number for instant bill details.",
+      "url": "https://utilpro.netlify.app/blog/govt-services/electricity-bill-online",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"How to Check Electricity Bill Online in Pakistan 2026 | UtilPro\",\n  \"description\": \"Check your electricity bill online in Pakistan — LESCO, IESCO, FESCO, MEPCO, HESCO, PESCO, QESCO, GEPCO, SEPCO. Enter reference number for instant bill details.\",\n  \"url\": \"https://utilpro.netlify.app/blog/govt-services/electricity-bill-online\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/govt-services/electricity-bill-online",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Govt Services",
+          "item": "https://utilpro.netlify.app/blog/govt-services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Electricity Bill Online",
+          "item": "https://utilpro.netlify.app/blog/govt-services/electricity-bill-online"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Govt Services\",\n      \"item\": \"https://utilpro.netlify.app/blog/govt-services\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"name\": \"Electricity Bill Online\",\n      \"item\": \"https://utilpro.netlify.app/blog/govt-services/electricity-bill-online\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix/laptop-slow-windows-11",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Laptop Running Slow on Windows 11? 12 Easy Fixes (2026) | UtilPro",
+      "description": "Speed up your slow Windows 11 laptop with 12 proven fixes. No reinstall needed. Fix lag, freezing, startup slowness and high CPU usage on Windows 11.",
+      "url": "https://utilpro.netlify.app/blog/tech-fix/laptop-slow-windows-11",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Laptop Running Slow on Windows 11? 12 Easy Fixes (2026) | UtilPro\",\n  \"description\": \"Speed up your slow Windows 11 laptop with 12 proven fixes. No reinstall needed. Fix lag, freezing, startup slowness and high CPU usage on Windows 11.\",\n  \"url\": \"https://utilpro.netlify.app/blog/tech-fix/laptop-slow-windows-11\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix/laptop-slow-windows-11",
+    "schema_type": "FAQPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why This Problem Happens",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Why This Problem Happens' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When to Seek Professional Help",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'When to Seek Professional Help' on this page for details."
+          }
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Why This Problem Happens\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Why This Problem Happens' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"When to Seek Professional Help\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'When to Seek Professional Help' on this page for details.\"\n      }\n    }\n  ]\n}\n</script>",
+    "reason": "Question-style headings detected – FAQPage can enable FAQ rich results.",
+    "note": "Replace placeholder answers with real content before publishing."
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix/laptop-slow-windows-11",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tech Fix",
+          "item": "https://utilpro.netlify.app/blog/tech-fix"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Laptop Slow Windows 11",
+          "item": "https://utilpro.netlify.app/blog/tech-fix/laptop-slow-windows-11"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Tech Fix\",\n      \"item\": \"https://utilpro.netlify.app/blog/tech-fix\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"name\": \"Laptop Slow Windows 11\",\n      \"item\": \"https://utilpro.netlify.app/blog/tech-fix/laptop-slow-windows-11\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix/wifi-connected-no-internet",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "WiFi Connected But No Internet? Fix It Now (2026) | UtilPro",
+      "description": "Fix the WiFi connected but no internet error on Windows 11, Android, and iPhone. Solve DNS errors, IP conflicts, and router issues step by step.",
+      "url": "https://utilpro.netlify.app/blog/tech-fix/wifi-connected-no-internet",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"WiFi Connected But No Internet? Fix It Now (2026) | UtilPro\",\n  \"description\": \"Fix the WiFi connected but no internet error on Windows 11, Android, and iPhone. Solve DNS errors, IP conflicts, and router issues step by step.\",\n  \"url\": \"https://utilpro.netlify.app/blog/tech-fix/wifi-connected-no-internet\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix/wifi-connected-no-internet",
+    "schema_type": "FAQPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why This Problem Happens",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Why This Problem Happens' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When to Seek Professional Help",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'When to Seek Professional Help' on this page for details."
+          }
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Why This Problem Happens\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Why This Problem Happens' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"When to Seek Professional Help\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'When to Seek Professional Help' on this page for details.\"\n      }\n    }\n  ]\n}\n</script>",
+    "reason": "Question-style headings detected – FAQPage can enable FAQ rich results.",
+    "note": "Replace placeholder answers with real content before publishing."
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix/wifi-connected-no-internet",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tech Fix",
+          "item": "https://utilpro.netlify.app/blog/tech-fix"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Wifi Connected No Internet",
+          "item": "https://utilpro.netlify.app/blog/tech-fix/wifi-connected-no-internet"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Tech Fix\",\n      \"item\": \"https://utilpro.netlify.app/blog/tech-fix\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"name\": \"Wifi Connected No Internet\",\n      \"item\": \"https://utilpro.netlify.app/blog/tech-fix/wifi-connected-no-internet\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix/phone-overheating",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Phone Overheating? 10 Causes & Instant Fixes (2026) | UtilPro",
+      "description": "Stop your phone from overheating with these 10 proven solutions. Fix Android and iPhone heat issues caused by apps, charging, gaming, and software bugs.",
+      "url": "https://utilpro.netlify.app/blog/tech-fix/phone-overheating",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Phone Overheating? 10 Causes & Instant Fixes (2026) | UtilPro\",\n  \"description\": \"Stop your phone from overheating with these 10 proven solutions. Fix Android and iPhone heat issues caused by apps, charging, gaming, and software bugs.\",\n  \"url\": \"https://utilpro.netlify.app/blog/tech-fix/phone-overheating\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix/phone-overheating",
+    "schema_type": "FAQPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why This Problem Happens",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'Why This Problem Happens' on this page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When to Seek Professional Help",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "See the section 'When to Seek Professional Help' on this page for details."
+          }
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Why This Problem Happens\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'Why This Problem Happens' on this page for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"When to Seek Professional Help\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"See the section 'When to Seek Professional Help' on this page for details.\"\n      }\n    }\n  ]\n}\n</script>",
+    "reason": "Question-style headings detected – FAQPage can enable FAQ rich results.",
+    "note": "Replace placeholder answers with real content before publishing."
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/blog/tech-fix/phone-overheating",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://utilpro.netlify.app/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Tech Fix",
+          "item": "https://utilpro.netlify.app/blog/tech-fix"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Phone Overheating",
+          "item": "https://utilpro.netlify.app/blog/tech-fix/phone-overheating"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Blog\",\n      \"item\": \"https://utilpro.netlify.app/blog\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Tech Fix\",\n      \"item\": \"https://utilpro.netlify.app/blog/tech-fix\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"name\": \"Phone Overheating\",\n      \"item\": \"https://utilpro.netlify.app/blog/tech-fix/phone-overheating\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/about",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "About UtilPro — Free Online Tools & Guides",
+      "description": "UtilPro provides 10+ free online tools and 20+ expert guides to solve everyday problems. No login required, no fees, no popups.",
+      "url": "https://utilpro.netlify.app/about",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"About UtilPro — Free Online Tools & Guides\",\n  \"description\": \"UtilPro provides 10+ free online tools and 20+ expert guides to solve everyday problems. No login required, no fees, no popups.\",\n  \"url\": \"https://utilpro.netlify.app/about\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/about",
+    "schema_type": "SoftwareApplication",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "About UtilPro",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://utilpro.netlify.app/about"
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"SoftwareApplication\",\n  \"name\": \"About UtilPro\",\n  \"operatingSystem\": \"Web\",\n  \"applicationCategory\": \"UtilitiesApplication\",\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"price\": \"0\",\n    \"priceCurrency\": \"USD\"\n  },\n  \"url\": \"https://utilpro.netlify.app/about\"\n}\n</script>",
+    "reason": "Utility/tool pages benefit from SoftwareApplication schema.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/about",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://utilpro.netlify.app/about"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"About\",\n      \"item\": \"https://utilpro.netlify.app/about\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/contact",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Contact UtilPro — Get in Touch",
+      "description": "Contact UtilPro for feedback, bug reports, content suggestions, or advertising inquiries.",
+      "url": "https://utilpro.netlify.app/contact",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Contact UtilPro — Get in Touch\",\n  \"description\": \"Contact UtilPro for feedback, bug reports, content suggestions, or advertising inquiries.\",\n  \"url\": \"https://utilpro.netlify.app/contact\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/contact",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://utilpro.netlify.app/contact"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Contact\",\n      \"item\": \"https://utilpro.netlify.app/contact\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/privacy",
+    "schema_type": "WebPage",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Privacy Policy — UtilPro",
+      "description": "UtilPro Privacy Policy. Learn how we handle your data, our use of Google AdSense, and your rights as a user.",
+      "url": "https://utilpro.netlify.app/privacy",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://utilpro.netlify.app/"
+      }
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Privacy Policy — UtilPro\",\n  \"description\": \"UtilPro Privacy Policy. Learn how we handle your data, our use of Google AdSense, and your rights as a user.\",\n  \"url\": \"https://utilpro.netlify.app/privacy\",\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"url\": \"https://utilpro.netlify.app/\"\n  }\n}\n</script>",
+    "reason": "WebPage schema clarifies the page entity.",
+    "note": null
+  },
+  {
+    "page_url": "https://utilpro.netlify.app/privacy",
+    "schema_type": "BreadcrumbList",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilpro.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Privacy",
+          "item": "https://utilpro.netlify.app/privacy"
+        }
+      ]
+    },
+    "script_tag": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://utilpro.netlify.app/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Privacy\",\n      \"item\": \"https://utilpro.netlify.app/privacy\"\n    }\n  ]\n}\n</script>",
+    "reason": "Breadcrumbs improve navigation understanding in search.",
+    "note": null
+  }
+]

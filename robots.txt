@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://utilpro.netlify.app/sitemap.xml

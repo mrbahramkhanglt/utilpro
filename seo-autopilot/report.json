@@ -1,0 +1,713 @@
+{
+  "title": "SEO Audit Report – utilpro.netlify.app",
+  "generated_at": "2026-09-03T04:02:14.551858+00:00",
+  "website": {
+    "url": "https://utilpro.netlify.app",
+    "domain": "utilpro.netlify.app",
+    "name": "UtilPro",
+    "has_sitemap": true,
+    "has_robots": true,
+    "technology_stack": {}
+  },
+  "executive_summary": "Overall SEO score is 75/100 for utilpro.netlify.app. Found 0 critical, 2 high, 2 medium, and 1 low issues. Crawled 30 pages (discovered 30). Recommendations focus on potential SEO improvement — rankings are never guaranteed.",
+  "seo_score": {
+    "overall": 75,
+    "technical": 100,
+    "on_page": 100,
+    "content": 56,
+    "performance": 70,
+    "indexability": 100,
+    "structured_data": 13,
+    "internal_linking": 100,
+    "mobile": 75,
+    "accessibility": 100,
+    "authority": 50,
+    "details": {
+      "pages_analyzed": 30,
+      "critical_issues": 0,
+      "high_issues": 2,
+      "penalty_applied": 6
+    }
+  },
+  "critical_issues": [],
+  "high_issues": [
+    {
+      "category": "on_page",
+      "code": "DUPLICATE_TITLES",
+      "severity": "high",
+      "title": "1 duplicate title(s) found",
+      "description": "1 duplicate title(s) found",
+      "why_it_matters": "Duplicate titles confuse search engines and dilute relevance.",
+      "recommended_fix": "Make every page title unique and intent-aligned.",
+      "expected_impact": "high",
+      "effort": "medium",
+      "priority_score": 75.0,
+      "data": {
+        "duplicates": [
+          "UtilPro - Free Online Tools, Calculators & How-To Guides"
+        ]
+      }
+    },
+    {
+      "category": "content",
+      "code": "THIN_CONTENT",
+      "severity": "high",
+      "title": "13 page(s) with thin content (<150 words)",
+      "description": "13 page(s) with thin content (<150 words)",
+      "why_it_matters": "Thin pages rarely rank and can hurt site quality signals.",
+      "recommended_fix": "Expand useful content aligned to search intent, or consolidate/noindex low-value pages.",
+      "expected_impact": "high",
+      "effort": "hard",
+      "priority_score": 52.5,
+      "data": {
+        "count": 13
+      }
+    }
+  ],
+  "medium_issues": [
+    {
+      "category": "technical",
+      "code": "MISSING_CANONICAL",
+      "severity": "medium",
+      "title": "14 page(s) without canonical tag",
+      "description": "14 page(s) without canonical tag",
+      "why_it_matters": "Canonical tags prevent duplicate-content issues.",
+      "recommended_fix": "Add a self-referencing rel=canonical on every indexable page.",
+      "expected_impact": "medium",
+      "effort": "easy",
+      "priority_score": 60.0,
+      "data": {
+        "count": 14
+      }
+    },
+    {
+      "category": "structured_data",
+      "code": "MISSING_SCHEMA",
+      "severity": "medium",
+      "title": "26 page(s) without structured data",
+      "description": "26 page(s) without structured data",
+      "why_it_matters": "Structured data enables rich results and clearer entity understanding.",
+      "recommended_fix": "Add appropriate JSON-LD (WebPage, Article, FAQ, Product, Organization, etc.).",
+      "expected_impact": "medium",
+      "effort": "medium",
+      "priority_score": 50.0,
+      "data": {
+        "count": 26
+      }
+    }
+  ],
+  "low_issues": [
+    {
+      "category": "on_page",
+      "code": "MISSING_OPEN_GRAPH",
+      "severity": "low",
+      "title": "25 page(s) missing Open Graph tags",
+      "description": "25 page(s) missing Open Graph tags",
+      "why_it_matters": "OG tags control how links appear when shared on social platforms.",
+      "recommended_fix": "Add og:title, og:description, og:image, og:url on key pages.",
+      "expected_impact": "low",
+      "effort": "easy",
+      "priority_score": 30.0,
+      "data": {
+        "count": 25
+      }
+    }
+  ],
+  "keyword_opportunities": [
+    {
+      "keyword": "all-in-one utility hub",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "All-In-One Utility Hub | Guide & Tips",
+      "recommended_h1": "Your All-in-One Online Utility Hub",
+      "recommended_meta": "Use our free all-in-one utility hub to get instant, accurate results. Simple, fast, and mobile-friendly. No signup required.",
+      "page_url": "https://utilpro.netlify.app"
+    },
+    {
+      "keyword": "all-in-one utility hub",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "All-In-One Utility Hub | Guide & Tips",
+      "recommended_h1": "Your All-in-One Online Utility Hub",
+      "recommended_meta": "Use our free all-in-one utility hub to get instant, accurate results. Simple, fast, and mobile-friendly. No signup required.",
+      "page_url": "https://utilpro.netlify.app/"
+    },
+    {
+      "keyword": "tools",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Free Online Tools — Calculators & Converters | UtilPro",
+      "recommended_h1": "🔧 Free Online Tools",
+      "recommended_meta": "10 free online tools: Age Calculator, Loan EMI Calculator, BMI Calculator, Password Generator, Currency Converter, Unit Converter and more. No signup required.",
+      "page_url": "https://utilpro.netlify.app/tools"
+    },
+    {
+      "keyword": "how-to guides",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "How-To Guides | Guide & Tips",
+      "recommended_h1": "📖 All How-To Guides",
+      "recommended_meta": "20+ expert guides on mobile fixes, Pakistan government services, education resources, and tech solutions. Step-by-step, verified, and updated for 2026.",
+      "page_url": "https://utilpro.netlify.app/blog"
+    },
+    {
+      "keyword": "mobile fix",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Mobile Fix | Guide & Tips",
+      "recommended_h1": "📱 Mobile Fix Guides",
+      "recommended_meta": "Step-by-step solutions for WhatsApp, Instagram, Facebook, and mobile network problems.",
+      "page_url": "https://utilpro.netlify.app/blog/mobile-fix"
+    },
+    {
+      "keyword": "govt services",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "🏛️ Govt Services Guides — UtilPro",
+      "recommended_h1": "🏛️ Govt Services Guides",
+      "recommended_meta": "Pakistan government service guides — CNIC, BISP, Passport, Electricity Bill, Gas Bill.",
+      "page_url": "https://utilpro.netlify.app/blog/govt-services"
+    },
+    {
+      "keyword": "education",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Education | Guide & Tips",
+      "recommended_h1": "🎓 Education Guides",
+      "recommended_meta": "Resources for Pakistani students — BISE results, past papers, scholarships, and admissions.",
+      "page_url": "https://utilpro.netlify.app/blog/education"
+    },
+    {
+      "keyword": "tech fix",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Tech Fix | Guide & Tips",
+      "recommended_h1": "💻 Tech Fix Guides",
+      "recommended_meta": "Fix laptop, computer, and app problems — Windows 11, WiFi, phone overheating and more.",
+      "page_url": "https://utilpro.netlify.app/blog/tech-fix"
+    },
+    {
+      "keyword": "age calculator",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Age Calculator — Calculate Your Exact Age | UtilPro",
+      "recommended_h1": "🎂 Age Calculator",
+      "recommended_meta": "Calculate your exact age in years, months, days, hours, and minutes from your date of birth. Free online age calculator with instant results.",
+      "page_url": "https://utilpro.netlify.app/tools/age-calculator"
+    },
+    {
+      "keyword": "emi calculator",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Loan EMI Calculator — Free Monthly EMI Calculator | UtilPro",
+      "recommended_h1": "💰 Loan EMI Calculator",
+      "recommended_meta": "Calculate your loan EMI (Equated Monthly Installment) for home loan, car loan, or personal loan. Get instant results with full amortization breakdown.",
+      "page_url": "https://utilpro.netlify.app/tools/emi-calculator"
+    },
+    {
+      "keyword": "bmi calculator",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "BMI Calculator — Check Your Body Mass Index Free | UtilPro",
+      "recommended_h1": "⚖️ BMI Calculator",
+      "recommended_meta": "Calculate your BMI (Body Mass Index) instantly. Enter your weight and height to get your BMI score and health category — underweight, normal, overweight, or obese.",
+      "page_url": "https://utilpro.netlify.app/tools/bmi-calculator"
+    },
+    {
+      "keyword": "percentage calculator",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Percentage Calculator — Free Online % Calculator | UtilPro",
+      "recommended_h1": "% Percentage Calculator",
+      "recommended_meta": "Calculate percentages instantly. Find X% of Y, percentage increase/decrease, or what percentage X is of Y. Free online tool.",
+      "page_url": "https://utilpro.netlify.app/tools/percentage-calculator"
+    },
+    {
+      "keyword": "timezone converter",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Timezone Converter | Guide & Tips",
+      "recommended_h1": "🌍 Time Zone Converter",
+      "recommended_meta": "Convert time between Pakistan (PKT), USA, UK, UAE, Saudi Arabia and 20+ world time zones. Free online time zone converter with live clock.",
+      "page_url": "https://utilpro.netlify.app/tools/timezone-converter"
+    },
+    {
+      "keyword": "password generator",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Strong Password Generator — Free & Secure | UtilPro",
+      "recommended_h1": "🔑 Password Generator",
+      "recommended_meta": "Generate strong, random passwords instantly. Customize length, include uppercase, numbers, and symbols. Your passwords are never stored or sent anywhere.",
+      "page_url": "https://utilpro.netlify.app/tools/password-generator"
+    },
+    {
+      "keyword": "unit converter",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Unit Converter — kg, meters, liters, °C & More | UtilPro",
+      "recommended_h1": "📐 Unit Converter",
+      "recommended_meta": "Free online unit converter. Convert weight (kg/lbs), length (km/miles/feet), temperature (Celsius/Fahrenheit), volume (liters/gallons) and more instantly.",
+      "page_url": "https://utilpro.netlify.app/tools/unit-converter"
+    },
+    {
+      "keyword": "date difference",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Date Difference Calculator — Days Between Two Dates | UtilPro",
+      "recommended_h1": "📅 Date Difference Calculator",
+      "recommended_meta": "Calculate the exact number of days, weeks, months, and years between any two dates. Free online date difference calculator — perfect for deadlines and anniversaries.",
+      "page_url": "https://utilpro.netlify.app/tools/date-difference"
+    },
+    {
+      "keyword": "currency converter",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Currency Converter — PKR, USD, EUR, GBP, AED | UtilPro",
+      "recommended_h1": "💱 Currency Converter",
+      "recommended_meta": "Convert PKR to USD, EUR, GBP, AED, SAR and 15+ currencies. Free online currency converter with reference exchange rates for Pakistan.",
+      "page_url": "https://utilpro.netlify.app/tools/currency-converter"
+    },
+    {
+      "keyword": "pdf tools",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Free PDF Tools Hub — 20+ PDF Tools Online | UtilPro",
+      "recommended_h1": "Free PDF Tools Hub",
+      "recommended_meta": "20+ free PDF tools: Merge PDF, Split PDF, Compress PDF, PDF to Word, PDF to Excel, PDF to JPG, PDF to PNG, Rotate, Watermark, Protect, Unlock PDF and more.",
+      "page_url": "https://utilpro.netlify.app/tools/pdf-tools"
+    },
+    {
+      "keyword": "whatsapp otp not received",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "WhatsApp OTP Not Received? 10 Proven Fixes (2026) | UtilPro",
+      "recommended_h1": "WhatsApp OTP Not Received? 10 Proven Fixes (2026)",
+      "recommended_meta": "WhatsApp verification code not received? Fix it in minutes with these 10 proven solutions for Android and iPhone. Works for new installs and reinstalls.",
+      "page_url": "https://utilpro.netlify.app/blog/mobile-fix/whatsapp-otp-not-received"
+    },
+    {
+      "keyword": "android phone slow fix",
+      "type": "primary",
+      "search_intent": "informational",
+      "recommended_title": "Android Phone Slow Fix | Guide & Tips",
+      "recommended_h1": "Android Phone Running Slow? 10 Easy Fixes (2026)",
+      "recommended_meta": "Use our free android phone slow fix to get instant, accurate results. Simple, fast, and mobile-friendly. No signup required.",
+      "page_url": "https://utilpro.netlify.app/blog/mobile-fix/android-phone-slow-fix"
+    }
+  ],
+  "top_recommendations": [
+    {
+      "category": "on_page",
+      "title": "1 duplicate title(s) found",
+      "what": "1 duplicate title(s) found",
+      "why": "Duplicate titles confuse search engines and dilute relevance.",
+      "how": "Make every page title unique and intent-aligned.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 75.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "issue_code": "DUPLICATE_TITLES",
+        "data": {
+          "duplicates": [
+            "UtilPro - Free Online Tools, Calculators & How-To Guides"
+          ]
+        }
+      },
+      "source": "issue"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: Your All-in-One Online Utility Hub",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app",
+        "content_outline": [
+          "H1: Your All-in-One Online Utility Hub",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: Your All-in-One Online Utility Hub",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/",
+        "content_outline": [
+          "H1: Your All-in-One Online Utility Hub",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: 🔧 Free Online Tools",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools",
+        "content_outline": [
+          "H1: 🔧 Free Online Tools",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: 🎂 Age Calculator",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools/age-calculator",
+        "content_outline": [
+          "H1: 🎂 Age Calculator",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: 💰 Loan EMI Calculator",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools/emi-calculator",
+        "content_outline": [
+          "H1: 💰 Loan EMI Calculator",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: ⚖️ BMI Calculator",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools/bmi-calculator",
+        "content_outline": [
+          "H1: ⚖️ BMI Calculator",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: % Percentage Calculator",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools/percentage-calculator",
+        "content_outline": [
+          "H1: % Percentage Calculator",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: 🌍 Time Zone Converter",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools/timezone-converter",
+        "content_outline": [
+          "H1: 🌍 Time Zone Converter",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: 🔑 Password Generator",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools/password-generator",
+        "content_outline": [
+          "H1: 🔑 Password Generator",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: 📐 Unit Converter",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools/unit-converter",
+        "content_outline": [
+          "H1: 📐 Unit Converter",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: 📅 Date Difference Calculator",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools/date-difference",
+        "content_outline": [
+          "H1: 📅 Date Difference Calculator",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: 💱 Currency Converter",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools/currency-converter",
+        "content_outline": [
+          "H1: 💱 Currency Converter",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: Free PDF Tools Hub",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/tools/pdf-tools",
+        "content_outline": [
+          "H1: Free PDF Tools Hub",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    },
+    {
+      "category": "content",
+      "title": "Expand content for: About UtilPro",
+      "what": "Tool page needs supporting educational content around the utility.",
+      "why": "Thin tool pages rarely rank; users and search engines expect how-to, examples, and FAQ.",
+      "how": "Add sections: How to use, Examples, Formula/logic (if relevant), Limitations, FAQ (3–5 real questions), Related tools.",
+      "impact": "high",
+      "effort": "medium",
+      "priority": 70.0,
+      "auto_applicable": false,
+      "requires_approval": true,
+      "suggested_change": {
+        "type": "tool_page_enhancement",
+        "page_url": "https://utilpro.netlify.app/about",
+        "content_outline": [
+          "H1: About UtilPro",
+          "Short intro (2–3 sentences, intent-aligned)",
+          "How to use (numbered steps)",
+          "Worked example",
+          "Formula or methodology (if applicable)",
+          "FAQ (3–5 questions)",
+          "Related tools (internal links)"
+        ],
+        "keywords": null
+      },
+      "source": "content"
+    }
+  ],
+  "autofix_summary": {
+    "pages_in_sitemap": 30,
+    "metadata_rows": 30,
+    "schema_blocks": 79,
+    "internal_link_suggestions": 0
+  },
+  "next_steps": [
+    "Review and apply auto-applicable metadata and schema fixes.",
+    "Expand thin tool pages with how-to, examples, and FAQ content.",
+    "Submit updated sitemap in Google Search Console after deploy.",
+    "Re-crawl after changes to verify before/after impact.",
+    "Monitor rankings and CTR — treat all gains as potential improvements only."
+  ],
+  "disclaimer": "This report provides recommended optimizations and estimated impact only. SEO Autopilot AI never claims that rankings will increase or that any page will rank #1."
+}
