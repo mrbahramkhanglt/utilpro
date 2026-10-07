@@ -1,0 +1,29 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8"/>
+      <stop offset="60%" style="stop-color:#0d47a1"/>
+      <stop offset="100%" style="stop-color:#1a237e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="630" fill="rgba(0,0,0,0.15)"/>
+  <!-- Logo area -->
+  <rect x="80" y="80" width="80" height="80" rx="20" fill="rgba(255,255,255,0.15)"/>
+  <text x="120" y="133" font-family="Arial" font-size="44" text-anchor="middle" fill="white">🛠️</text>
+  <!-- Title -->
+  <text x="80" y="240" font-family="Arial Black,Arial" font-size="64" font-weight="900" fill="white">UtilPro</text>
+  <text x="80" y="310" font-family="Arial" font-size="36" fill="rgba(255,255,255,0.85)">Free Online Tools &amp; Guides</text>
+  <!-- Description -->
+  <text x="80" y="380" font-family="Arial" font-size="26" fill="rgba(255,255,255,0.7)">Age Calculator • EMI Calculator • PDF Tools</text>
+  <text x="80" y="420" font-family="Arial" font-size="26" fill="rgba(255,255,255,0.7)">Currency Converter • Password Generator • Unit Converter</text>
+  <!-- Badges -->
+  <rect x="80" y="480" width="200" height="48" rx="24" fill="rgba(255,255,255,0.2)"/>
+  <text x="180" y="511" font-family="Arial" font-size="20" text-anchor="middle" fill="white">✅ 100% Free</text>
+  <rect x="300" y="480" width="220" height="48" rx="24" fill="rgba(255,255,255,0.2)"/>
+  <text x="410" y="511" font-family="Arial" font-size="20" text-anchor="middle" fill="white">🔒 No Login</text>
+  <rect x="540" y="480" width="220" height="48" rx="24" fill="rgba(255,255,255,0.2)"/>
+  <text x="650" y="511" font-family="Arial" font-size="20" text-anchor="middle" fill="white">📱 Mobile Friendly</text>
+  <!-- URL -->
+  <text x="80" y="590" font-family="Arial" font-size="22" fill="rgba(255,255,255,0.5)">utilpro.netlify.app</text>
+</svg>
