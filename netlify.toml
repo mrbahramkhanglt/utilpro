@@ -1,12 +1,30 @@
 [build]
-  publish = "public"
+  publish = "."
+
+[[redirects]]
+  from = "/tools"
+  to = "/tools/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog/index.html"
+  status = 200
 
 [[headers]]
-  for = "/robots.txt"
+  for = "*.html"
   [headers.values]
-    Content-Type = "text/plain; charset=utf-8"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Cache-Control = "public, max-age=3600"
 
 [[headers]]
-  for = "/sitemap.xml"
+  for = "/css/*"
   [headers.values]
-    Content-Type = "application/xml; charset=utf-8"
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
