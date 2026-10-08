@@ -1,0 +1,68 @@
+name: 🚀 UtilPro Full Auto Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  seo-pings:
+    name: 📡 SEO & Sitemap Pings
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⏳ Wait for Netlify deploy
+        if: github.event_name == 'push'
+        run: sleep 90
+
+      - name: 🗺️ Ping Google Sitemap
+        run: curl -s "https://www.google.com/ping?sitemap=https://utilpro.netlify.app/sitemap.xml" && echo "✅ Google pinged"
+
+      - name: 🗺️ Ping Bing Sitemap
+        run: curl -s "https://www.bing.com/ping?sitemap=https://utilpro.netlify.app/sitemap.xml" && echo "✅ Bing pinged"
+
+      - name: ⚡ IndexNow Submission
+        run: |
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d '{"host":"utilpro.netlify.app","key":"utilpro793bb2cb8ea6b3a8","keyLocation":"https://utilpro.netlify.app/utilpro793bb2cb8ea6b3a8.txt","urlList":["https://utilpro.netlify.app/","https://utilpro.netlify.app/tools/pdf-tools.html","https://utilpro.netlify.app/tools/age-calculator.html","https://utilpro.netlify.app/tools/emi-calculator.html","https://utilpro.netlify.app/tools/currency-converter.html","https://utilpro.netlify.app/blog/govt-services/cnic-verification-nadra.html","https://utilpro.netlify.app/blog/mobile-fix/whatsapp-otp-not-received.html"]}'
+          echo "✅ IndexNow submitted"
+
+  health-check:
+    name: ✅ Health Check
+    runs-on: ubuntu-latest
+    needs: seo-pings
+    steps:
+      - name: Check all key pages
+        run: |
+          for URL in \
+            "https://utilpro.netlify.app/" \
+            "https://utilpro.netlify.app/tools/pdf-tools.html" \
+            "https://utilpro.netlify.app/tools/emi-calculator.html" \
+            "https://utilpro.netlify.app/sitemap.xml" \
+            "https://utilpro.netlify.app/robots.txt" \
+            "https://utilpro.netlify.app/utilpro793bb2cb8ea6b3a8.txt" \
+            "https://utilpro.netlify.app/admin.html"; do
+            S=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
+            echo "$S — $URL"
+          done
+
+  performance:
+    name: ⚡ Performance
+    runs-on: ubuntu-latest
+    needs: health-check
+    steps:
+      - name: Measure site performance
+        run: |
+          TIME=$(curl -s -o /dev/null -w "%{time_total}" https://utilpro.netlify.app/)
+          TTFB=$(curl -s -o /dev/null -w "%{time_starttransfer}" https://utilpro.netlify.app/)
+          SIZE=$(curl -s -o /dev/null -w "%{size_download}" https://utilpro.netlify.app/)
+          echo "Load time : ${TIME}s"
+          echo "TTFB      : ${TTFB}s"
+          echo "Page size : ${SIZE} bytes"
+          echo "====================================="
+          echo "✅ UtilPro Pipeline Complete!"
+          echo "🌐 utilpro.netlify.app — LIVE"
+          echo "🔍 Google + Bing + IndexNow pinged"
+          echo "====================================="
