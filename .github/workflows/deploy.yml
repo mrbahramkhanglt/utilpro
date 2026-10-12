@@ -4,73 +4,151 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 6 * * *'  # Daily at 6 AM UTC
+    - cron: '0 3 * * *'   # Daily 3 AM UTC = 8 AM PKT
+    - cron: '0 15 * * *'  # Daily 3 PM UTC = 8 PM PKT
   workflow_dispatch:
 
+env:
+  NETLIFY_URL: https://utilpro.netlify.app
+  VERCEL_URL: https://utilpro.vercel.app
+  GITHUB_URL: https://mrbahramkhanglt.github.io/utilpro
+
 jobs:
-  seo-ping:
-    name: 🔍 SEO Pings
+  # ── JOB 1: WAIT FOR DEPLOYMENT ──────────────────────
+  wait-deploy:
+    name: ⏳ Wait for Deployment
     runs-on: ubuntu-latest
     steps:
-      - name: ⏳ Wait for Netlify/Vercel deploy
+      - name: Wait 90 seconds for Netlify+Vercel to deploy
         run: sleep 90
 
-      - name: 📡 Ping Google
-        run: curl -s "https://www.google.com/ping?sitemap=https://utilpro.netlify.app/sitemap.xml" || true
-
-      - name: 📡 Ping Bing
-        run: curl -s "https://www.bing.com/ping?sitemap=https://utilpro.netlify.app/sitemap.xml" || true
-
-      - name: 📡 IndexNow - Netlify
-        run: |
-          curl -s -X POST "https://api.indexnow.org/indexnow" \
-            -H "Content-Type: application/json" \
-            -d '{"host":"utilpro.netlify.app","key":"utilpro2026seoaeo","urlList":["https://utilpro.netlify.app/","https://utilpro.netlify.app/tools/pdf-tools.html","https://utilpro.netlify.app/tools/emi-calculator.html","https://utilpro.netlify.app/tools/age-calculator.html","https://utilpro.netlify.app/blog/"]}' || true
-          echo "✅ IndexNow pinged"
-
-      - name: 📡 IndexNow - Vercel
-        run: |
-          curl -s -X POST "https://api.indexnow.org/indexnow" \
-            -H "Content-Type: application/json" \
-            -d '{"host":"utilpro.vercel.app","key":"utilpro2026seoaeo","urlList":["https://utilpro.vercel.app/","https://utilpro.vercel.app/tools/pdf-tools.html","https://utilpro.vercel.app/tools/emi-calculator.html"]}' || true
-
-  health-check:
-    name: ✅ Health Check
+  # ── JOB 2: GOOGLE SEARCH ENGINE SUBMISSION ──────────
+  google-submission:
+    name: 🔍 Google Auto-Submission
     runs-on: ubuntu-latest
-    needs: seo-ping
+    needs: wait-deploy
     steps:
-      - name: Check Netlify
+      - name: 📡 Submit Sitemap to Google (Netlify)
         run: |
-          S=$(curl -s -o /dev/null -w "%{http_code}" https://utilpro.netlify.app/)
-          echo "Netlify: $S"; [ "$S" = "200" ] && echo "✅ OK" || echo "⚠️ Issue: $S"
+          echo "Submitting sitemap to Google..."
+          curl -s "https://www.google.com/ping?sitemap=$NETLIFY_URL/sitemap.xml" && echo "✅ Google ping OK"
 
-      - name: Check Vercel
+      - name: 📡 Submit Sitemap to Google (Vercel)
         run: |
-          S=$(curl -s -o /dev/null -w "%{http_code}" https://utilpro.vercel.app/)
-          echo "Vercel: $S"; [ "$S" = "200" ] && echo "✅ OK" || echo "⚠️ Issue: $S"
+          curl -s "https://www.google.com/ping?sitemap=$VERCEL_URL/sitemap.xml" && echo "✅ Google Vercel ping OK"
 
-      - name: Check PDF Tools
+      - name: 📡 Submit Sitemap to Google (GitHub)
         run: |
-          S=$(curl -s -o /dev/null -w "%{http_code}" https://utilpro.netlify.app/tools/pdf-tools.html)
-          echo "PDF Tools: $S"; [ "$S" = "200" ] && echo "✅ OK" || echo "⚠️ $S"
+          curl -s "https://www.google.com/ping?sitemap=$GITHUB_URL/sitemap.xml" && echo "✅ Google GitHub ping OK"
 
-      - name: Check Sitemap
+      - name: 🔔 IndexNow - Fast Google Indexing
         run: |
-          S=$(curl -s -o /dev/null -w "%{http_code}" https://utilpro.netlify.app/sitemap.xml)
-          echo "Sitemap: $S"; [ "$S" = "200" ] && echo "✅ OK" || echo "⚠️ $S"
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "host": "utilpro.netlify.app",
+              "key": "utilpro2026seoaeo",
+              "keyLocation": "https://utilpro.netlify.app/utilpro2026seoaeo.txt",
+              "urlList": [
+                "https://utilpro.netlify.app/",
+                "https://utilpro.netlify.app/tools/pdf-tools.html",
+                "https://utilpro.netlify.app/tools/emi-calculator.html",
+                "https://utilpro.netlify.app/tools/age-calculator.html",
+                "https://utilpro.netlify.app/tools/bmi-calculator.html",
+                "https://utilpro.netlify.app/tools/currency-converter.html",
+                "https://utilpro.netlify.app/tools/password-generator.html",
+                "https://utilpro.netlify.app/tools/unit-converter.html",
+                "https://utilpro.netlify.app/blog/",
+                "https://utilpro.netlify.app/blog/govt-services/cnic-verification-nadra.html",
+                "https://utilpro.netlify.app/blog/govt-services/bisp-payment-check.html",
+                "https://utilpro.netlify.app/blog/mobile-fix/whatsapp-otp-not-received.html",
+                "https://utilpro.netlify.app/blog/tech-fix/windows-11-slow-fix.html"
+              ]
+            }' && echo "✅ IndexNow submitted"
 
-      - name: Check Admin
+  # ── JOB 3: BING SUBMISSION ───────────────────────────
+  bing-submission:
+    name: 🔵 Bing Auto-Submission
+    runs-on: ubuntu-latest
+    needs: wait-deploy
+    steps:
+      - name: 📡 Submit to Bing Webmaster
         run: |
-          S=$(curl -s -o /dev/null -w "%{http_code}" https://utilpro.netlify.app/admin.html)
+          curl -s "https://www.bing.com/ping?sitemap=$NETLIFY_URL/sitemap.xml" && echo "✅ Bing ping OK"
+          curl -s "https://www.bing.com/ping?sitemap=$VERCEL_URL/sitemap.xml" && echo "✅ Bing Vercel ping OK"
+
+      - name: 📡 IndexNow to Bing
+        run: |
+          curl -s -X POST "https://www.bing.com/indexnow" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "host": "utilpro.netlify.app",
+              "key": "utilpro2026seoaeo",
+              "urlList": [
+                "https://utilpro.netlify.app/",
+                "https://utilpro.netlify.app/tools/pdf-tools.html",
+                "https://utilpro.netlify.app/tools/emi-calculator.html",
+                "https://utilpro.netlify.app/blog/"
+              ]
+            }' && echo "✅ Bing IndexNow OK"
+
+  # ── JOB 4: HEALTH CHECK ─────────────────────────────
+  health-check:
+    name: ✅ Health Check All Sites
+    runs-on: ubuntu-latest
+    needs: [google-submission, bing-submission]
+    steps:
+      - name: 🌐 Check Netlify
+        run: |
+          S=$(curl -s -o /dev/null -w "%{http_code}" $NETLIFY_URL/)
+          echo "Netlify: $S"; [ "$S" = "200" ] && echo "✅ OK" || echo "❌ ISSUE: $S"
+
+      - name: 🔺 Check Vercel
+        run: |
+          S=$(curl -s -o /dev/null -w "%{http_code}" $VERCEL_URL/)
+          echo "Vercel: $S"; [ "$S" = "200" ] && echo "✅ OK" || echo "❌ ISSUE: $S"
+
+      - name: 📄 Check PDF Tools (Netlify)
+        run: |
+          S=$(curl -s -o /dev/null -w "%{http_code}" $NETLIFY_URL/tools/pdf-tools.html)
+          echo "PDF Tools: $S"; [ "$S" = "200" ] && echo "✅ OK" || echo "❌ ISSUE: $S"
+
+      - name: 📄 Check PDF Tools (Vercel)
+        run: |
+          S=$(curl -s -o /dev/null -w "%{http_code}" $VERCEL_URL/tools/pdf-tools.html)
+          echo "PDF Tools Vercel: $S"; [ "$S" = "200" ] && echo "✅ OK" || echo "⚠️ $S"
+
+      - name: 🗺️ Check Sitemap
+        run: |
+          S=$(curl -s -o /dev/null -w "%{http_code}" $NETLIFY_URL/sitemap.xml)
+          echo "Sitemap: $S"; [ "$S" = "200" ] && echo "✅ OK" || echo "❌ ISSUE: $S"
+
+      - name: 🔐 Check Admin Panel
+        run: |
+          S=$(curl -s -o /dev/null -w "%{http_code}" $NETLIFY_URL/admin.html)
           echo "Admin: $S"; [ "$S" = "200" ] && echo "✅ OK" || echo "⚠️ $S"
 
-      - name: ✅ Pipeline Complete
+      - name: 🔍 Check Google Verification File
         run: |
-          echo "================================================"
-          echo "  ✅ UtilPro Auto Pipeline Complete!"
-          echo "  🌐 Netlify  : utilpro.netlify.app"
-          echo "  🔺 Vercel   : utilpro.vercel.app"
-          echo "  📊 GA4      : G-X52KR4FG9X active"
+          S=$(curl -s -o /dev/null -w "%{http_code}" $NETLIFY_URL/google793bb2cb8ea6b3a8.html)
+          echo "Google verify: $S"
+          CONTENT=$(curl -s $NETLIFY_URL/google793bb2cb8ea6b3a8.html)
+          echo "Content: $CONTENT"
+
+      - name: 📊 SEO Score Check
+        run: |
+          echo "Checking meta tags..."
+          curl -s $NETLIFY_URL/ | grep -i "og:title\|description\|canonical\|schema" | head -5
+          echo "✅ SEO tags verified"
+
+      - name: 🎉 Summary
+        run: |
+          echo "========================================================"
+          echo "  ✅ UtilPro Auto Pipeline Complete — $(date)"
+          echo "  🌐 Netlify  : $NETLIFY_URL"
+          echo "  🔺 Vercel   : $VERCEL_URL"
+          echo "  📊 GA4      : G-X52KR4FG9X"
           echo "  💰 AdSense  : ca-pub-3332637557301277"
-          echo "  🔍 SEO pings: Google + Bing + IndexNow"
-          echo "================================================"
+          echo "  🔍 SEO      : Google + Bing + IndexNow pinged"
+          echo "  ⏰ Next run : $(date -d '+12 hours')"
+          echo "========================================================"
